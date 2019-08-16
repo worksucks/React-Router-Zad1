@@ -7,6 +7,7 @@ import store from './store';
 import DevTools from './DevTools';
 import Navigation from './presentational/navigation.component';
 import routes from './routes';
+import './country.css';
 
 render(
   <Provider store={store}>
